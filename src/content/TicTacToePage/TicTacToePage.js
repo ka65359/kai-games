@@ -1,5 +1,5 @@
 import React from "react";
-import TicTacToe from "../../components/TicTacToe";
+import TicTacToe from "../../components/Games/TicTacToe";
 
 export const TicTacToePage = ({
   aStateProp

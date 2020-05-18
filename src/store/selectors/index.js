@@ -1,6 +1,6 @@
 import { createSelector } from "reselect";
 
-const getAStateProp = (state) => state.ui.aStateProp;
+export const getAStateProp = (state) => state.ui.sample.aStateProp;
 
 export const getUpperCaseAStateProp = createSelector(
   [getAStateProp],
