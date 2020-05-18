@@ -1,0 +1,9 @@
+docs
+node_modules
+output
+public
+package.json
+package-lock.json
+.eslintrc.js
+.eslintignore
+**/__snapshots__/**
