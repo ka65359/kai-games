@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 import TicTacToe from "../TicTacToe";
-import * as constants from "../../../constants/tictactoe";
+import * as constants from "../../../../constants/tictactoe";
 
 describe("TicTacToe() tests", () => {
   let data;

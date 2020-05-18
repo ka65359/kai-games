@@ -33,7 +33,7 @@ import {
   clearTurnNumber,
   clearCurrentPlayer
 } from "store/actions";
-import * as constants from "../../constants/tictactoe";
+import * as constants from "../../../constants/tictactoe";
 import TicTacToeBoard from "./TicTacToeBoard";
 import "./TicTacToe.scss";
 

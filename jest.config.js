@@ -4,7 +4,14 @@ module.exports = exports = {
     "**/src/**/*.js",
     "!**/src/setupTests.js",
     "!**/__tests__/**",
-    "!**/node_modules/**"
+    "!**/node_modules/**",
+    "!**/src/stories/**",
+    "!**/src/**/*.stories.js",
+    "!**/src/core/**",
+    "!**/src/constants/**",
+    "!**/src/store/index.js",
+    "!**/src/store/reducers/index.js",
+    "!**/src/store/reducers/ui-reducers/index.js"
   ],
   coverageReporters: ["text", "html"],
   moduleFileExtensions: ["js", "json", "jsx", "node"],

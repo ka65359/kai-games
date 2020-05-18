@@ -67,6 +67,7 @@ export default createReducer(
         console.error(
           "Empty turn number, use clearTurnNumber() to reset turn count"
         );
+        return state;
       }
       let rslt = Object.assign({}, state, {
         turnNumber: payload
