@@ -1,0 +1,15 @@
+.kai-line.kai-shape-pos-top,
+.kai-line.kai-shape-pos-bottom {
+  height: 34px;
+  width: 5px;
+}
+
+.kai-line.kai-shape-pos-left,
+.kai-line.kai-shape-pos-right {
+  width: 34px;
+  height: 5px;
+}
+
+.kai-line.line:focus {
+  opacity: 100%;
+}

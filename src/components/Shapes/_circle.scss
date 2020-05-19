@@ -1,0 +1,20 @@
+.kai-circle.circle {
+  background: red;
+  float: left;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.kai-circle.kai-shape-size-max {
+  font-size: 24px;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+}
+
+.kai-circle.circle:focus {
+}
