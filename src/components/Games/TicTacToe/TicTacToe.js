@@ -35,7 +35,7 @@ import {
 } from "store/actions";
 import * as constants from "../../../constants/tictactoe";
 import TicTacToeBoard from "./TicTacToeBoard";
-import "./TicTacToe.scss";
+import "./tictactoe.scss";
 
 const onMouseDownHandler = () => {
   let gameBoardElem = document.getElementsByClassName("game");

@@ -2,7 +2,7 @@ import React from "react";
 import { action } from "@storybook/addon-actions";
 import { withKnobs } from "@storybook/addon-knobs";
 
-import { StorybookTicTacToe } from "./TicTacToe";
+import { StorybookTicTacToe } from "../TicTacToe";
 
 export default {
   component: StorybookTicTacToe,

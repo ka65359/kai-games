@@ -1,0 +1,33 @@
+.kai-tictactoe-game {
+  font: 14px "Century Gothic", "Futura", sans-serif;
+  margin: 20px;
+}
+
+.kai-tictactoe-game ol,
+.kai-tictactoe-game ul {
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.kai-tictactoe-game .board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.kai-tictactoe-game .kbd-navigation .kai-square:focus {
+  background: #ddd;
+}
+
+.kai-tictactoe-game .status {
+  margin-bottom: 10px;
+}
+
+.kai-tictactoe-game.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.kai-tictactoe-game .game-info {
+  margin-left: 20px;
+}
